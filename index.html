@@ -18,6 +18,13 @@
     
     <!-- Font Awesome CSS -->
     <script src="https://kit.fontawesome.com/27f26fa3af.js" crossorigin="anonymous"></script>
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
   </head>
   <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
@@ -55,8 +62,8 @@
     <div class="container">
       <div class="col-sm-6">
         <div class="content">
-          <h1 class="title">Meet Destiny, the visonary landing Page.</h1>
-          <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec ante at velit mollis molestie vel sed nibh. Phasellus turpis dui, vehicula vitae diam quis, auctor commodo magna.</div>
+          <h1 class="title"  data-aos="flip-down" data-aos-once="true">Meet Destiny, the visonary landing Page.</h1>
+          <div class="description" data-aos="fade-left" data-aos-once="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec ante at velit mollis molestie vel sed nibh. Phasellus turpis dui, vehicula vitae diam quis, auctor commodo magna.</div>
           <button class="button"> <i class="fas fa-play"></i> Watch Intro</button>
         </div>
       </div>
@@ -69,7 +76,7 @@
           <h3>Destiny isn't A.I, its the result of human intelligence.</h3>
           <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nec ante at velit mollis molestie vel sed nibh.Phasellus turpis dui, vehicula vitae diam quis, auctor commodo magna.</div>
         </div>
-        <div class="items">
+        <div class="items" data-aos="fade-left" data-aos-once="true"  data-aos-duration="9000" data-aos-delay="100">
           <div class="col-12 col-sm-12 col-md-4 col-lg-4">
             <div class="item">
               <div class="icon"><i class="fas fa-mobile-alt"></i></div>
@@ -96,13 +103,13 @@
     </div>
   </section>
   <section class="features" id="features">
-    <div class="container">
+    <div class="container" data-aos="fade-down" data-aos-once="true">
       <div class="row">
-        <div class="col-sm-6">
+        <div class="col-sm-6" >
           <img src="assets/images/feature_1.png" alt="feature_1">
         </div>
         <div class="col-sm-6 d-flex align-items-center">
-          <div class="content">
+          <div class="content" >
             <h3 class="title">Designed for Startups & brands.</h3>
             <div class="description">
               <p>Just get the code and sit tight, you will witness its power and performance in lead generations. Is simple yet Powerful and productive technology. Experience, then believe.</p>
@@ -119,7 +126,7 @@
     </div>
   </section>
   <section class="testimonials" id="testimonials">
-    <div class="container">
+    <div class="container" data-aos="zoom-in-right">
       <div class="section-title text-center">
         <h3>Testimonials</h3>
         <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
@@ -170,7 +177,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-6 m-auto">
-          <div class="content text-center">
+          <div class="content text-center" data-aos="zoom-in-up" data-aos-once="true">
             <h2>Get in Touch</h2>
             <div class="contact">+(1)925-201-1005</div>
             <span>You can call us from 07:00 AM - 18:00 PM</span>
@@ -186,7 +193,7 @@
         <div class="col-sm-6 m-auto">
           <h2 class="title">Destiny</h2>
           <div class="social-netowrks">
-            <ul>
+            <ul data-aos="zoom-in-right" data-aos-once="true">
                 <li class="facebook"><a href="#"><i class="fab fa-facebook-f"  aria-hidden="true"></i></a></li>
                 <li class="instagram"><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
                 <li class="twitter"><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
@@ -199,6 +206,15 @@
       </div>
     </div>
   </footer>
+
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration:1500
+    });
+  </script>
+
   </body>
 </html>
 <!-- by Suel Saraqi -->

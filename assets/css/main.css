@@ -197,6 +197,9 @@ section.features .content ul li:hover i {
 section.testimonials {
   padding: 7rem 0;
 }
+section.testimonials h3 {
+  animation-duration: 5s;
+}
 section.testimonials .carousel-item {
   text-align: center;
 }
